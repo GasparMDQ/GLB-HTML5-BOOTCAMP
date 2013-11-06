@@ -1,0 +1,22 @@
+.main-content
+{
+	float: none;
+	display: block;
+	width: 75%;
+	margin: 0px auto;
+}
+
+.pull-left
+{
+	float: left;
+}
+
+.pull-right
+{
+	float: right;
+}
+
+.clear
+{
+	float: none;
+}
