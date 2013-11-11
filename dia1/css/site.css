@@ -1,6 +1,7 @@
 body
 {
   width: 960px;
+  background-color: grey;
 }
 
 section {
@@ -13,4 +14,16 @@ section {
 
 .highlight {
   font-weight: bold;
+}
+
+.pull-right {
+  float: right;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.js-tweets {
+  background-color:rgba(255,0,0,0.5);
 }
