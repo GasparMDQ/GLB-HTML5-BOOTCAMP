@@ -1,0 +1,12 @@
+body
+{
+  width: 960px;
+}
+
+section {
+  text-align: center;
+}
+
+.error {
+  background-color: red;
+}
