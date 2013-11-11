@@ -8,7 +8,8 @@ $(function() {
     $.post('http://bootcamp.aws.af.cm/welcome/'+name)
     .done(function(data){
       $('section').removeClass('error');
-      $('section').html(highlightName(data.response,$('.alias').val()));
+      $('section').html(data.response);
+      highlightName($('section'),$('.alias').val());
     })
     .fail(function(){
       $('section').addClass('error');
@@ -17,6 +18,6 @@ $(function() {
   });
 });
 
-function highlightName(text, name) {
-  return text.replace(name,'<span class="highlight">'+name+'</span>');
+function highlightName($element, name) {
+  $element.html($element.html().replace(name,'<span class="highlight">'+name+'</span>'));
 }
