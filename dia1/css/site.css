@@ -10,3 +10,7 @@ section {
 .error {
   background-color: red;
 }
+
+.highlight {
+  font-weight: bold;
+}

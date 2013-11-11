@@ -4,9 +4,11 @@ $(function() {
     $('.alias').focus();
   });
   $('button').click(function(){
-    $.post('http://bootcamp.aws.af.cm/welcome/tunombre')
+    var name = $('.alias').val();
+    $.post('http://bootcamp.aws.af.cm/welcome/'+name)
     .done(function(data){
-      $('section').html(data.response);
+      $('section').removeClass('error');
+      $('section').html(highlightName(data.response,$('.alias').val()));
     })
     .fail(function(){
       $('section').addClass('error');
@@ -14,3 +16,7 @@ $(function() {
     
   });
 });
+
+function highlightName(text, name) {
+  return text.replace(name,'<span class="highlight">'+name+'</span>');
+}
