@@ -12,10 +12,6 @@ section {
   background-color: red;
 }
 
-.highlight {
-  font-weight: bold;
-}
-
 .pull-right {
   float: right;
 }
@@ -25,5 +21,5 @@ section {
 }
 
 .js-tweets {
-  background-color:rgba(255,0,0,0.5);
+  background-color:rgba(255,255,255,0.3);
 }

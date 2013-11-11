@@ -19,7 +19,7 @@ $(function() {
 });
 
 function highlightName($element, name) {
-  $element.html($element.html().replace(name,'<span class="highlight">'+name+'</span>'));
+  $element.html($element.html().replace(name,'<mark>'+name+'</mark>'));
 }
 
 function loadTweets() {
