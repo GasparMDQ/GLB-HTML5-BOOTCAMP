@@ -3,21 +3,48 @@
 }
 
 .js-search-form {
-	margin-top: 1em;
+  margin-top: 1em;
 }
 
 .big-search {
-	width: 300px;
+  width: 300px;
 }
 
 img.righty {
-	float: right;
+  float: right;
 }
 
 footer {
-	text-align: center;
+  text-align: center;
 }
 
 .padded {
-	padding: 5px;
+  padding: 5px;
+}
+
+article.padded-top {
+  padding-top: 1em;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.facebook-icon {
+  background-image:url(flat_social_icons_by_insofta.jpg);
+  background-repeat:no-repeat;
+  background-position: -166px -230px; 
+}
+
+.twitter-icon {
+  background-image:url(flat_social_icons_by_insofta.jpg);
+  background-repeat:no-repeat;
+  background-position: -256px -230px; 
+}
+
+.pintarest-icon {
+  background-image:url(flat_social_icons_by_insofta.jpg);
+  background-repeat:no-repeat;
+  background-position: -256px -275px; 
 }

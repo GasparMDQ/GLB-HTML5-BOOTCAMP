@@ -5,58 +5,97 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Titulo</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" href="css/site.css">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.oembed.min.js"></script>
-  <script src="js/site.yt.js"></script>
+  <script src="js/site.si.js"></script>
 </head>
 <body data-css="bootstrap">
+  <style>
+    /*Bootstrap fixed to top menu hack*/
+    body {
+      padding-top: 50px;
+    }
+  </style>  
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Sports Ilustrated</a>
+    </div>
 
-  <nav class="top-bar">
-    <ul class="title-area">
-      <li class="name"><h1><a href="#">Sports Ilustrated</a></h1></li>
-      <li class="toggle-topbar menu-icon"><a href="#"></a></li>
-    </ul>
-    <section class="top-bar-section">
-      <ul class="right">
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Pintarest</a></li>
-      </ul>    
-    </section>
+    <div class="collapse navbar-collapse" id="top-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><div class="social-icon facebook-icon"></div></a></li>
+        <li><a href="#"><div class="social-icon twitter-icon"></div></a></li>
+        <li><a href="#"><div class="social-icon pintarest-icon"></div></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
   </nav>
-  <dl class="sub-nav">
-    <dd><a href="#">Soccer</a></dd>
-    <dd><a href="#">Rugby</a></dd>
-    <dd><a href="#">Tennis</a></dd>
-    <dd><a href="#">Basketball</a></dd>
-    <dd><a href="#">Polo</a></dd>
-    <dd><a href="#">Hockey</a></dd>
-  </dl>
 
-  <section class="js-main-body">
+  <ul class="nav nav-tabs">
+    <li><a href="#">Soccer</a></li>
+    <li><a href="#">Rugby</a></li>
+    <li><a href="#">Tennis</a></li>
+    <li><a href="#">Basketball</a></li>
+    <li><a href="#">Polo</a></li>
+    <li><a href="#">Hockey</a></li>
+  </ul>
+  <section class="js-main-body container">
     <div class="row">
-      <article class="col-md-4">
-        <img src="http://placehold.it/500x300&text=Top+New+1" class="sg-img"><br />Top New 1
+      <article class="col-md-4 padded-top">
+        <img src="http://placehold.it/500x300&text=Top+New+1" class="img-responsive"><br />Top New 1
       </article>
-      <article class="col-md-4">
-        <img src="http://placehold.it/500x300&text=Top+New+1" class="sg-img"><br />Top New 1
+      <article class="col-md-4 padded-top">
+        <img src="http://placehold.it/500x300&text=Top+New+1" class="img-responsive"><br />Top New 1
       </article>
-      <article class="col-md-4">
-        <img src="http://placehold.it/500x300&text=Top+New+1" class="sg-img"><br />Top New 1
+      <article class="col-md-4 padded-top">
+        <img src="http://placehold.it/500x300&text=Top+New+1" class="img-responsive"><br />Top New 1
       </article>
     </div>
     <div class="row">
-      <article class="col-md-4">
-            <img src="img/demo1.jpg" />
-            <img src="img/demo2.jpg" />
-            <img src="img/demo3.jpg" />
-      <br />Carousel</article>
-      <article class="col-md-4">
+      <article class="col-md-8 padded-top">
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img class="img-responsive" src="img/demo1.jpg" />
+              <div class="carousel-caption">...</div>
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="img/demo2.jpg" />
+              <div class="carousel-caption">...</div>
+            </div>
+            <div class="item">
+              <img class="img-responsive" src="img/demo3.jpg" />
+              <div class="carousel-caption">...</div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+
+      </article>
+      <article class="col-md-4 padded-top">
         <header>Editorial</header>
-        <img src="http://placehold.it/50x50&text=Some Photo" class="sg-img righty">
+        <img src="http://placehold.it/50x50&text=Some Photo" class="img-responsive img-thumbnail pull-right">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed magna ultricies, pellentesque libero non, elementum leo. Ut feugiat ullamcorper ligula eget auctor. Donec sit amet erat eu enim tempus lobortis nec eu sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Fusce dapibus placerat faucibus. Vivamus eros neque, consectetur vel consectetur eget, dictum quis nisi.
         </p>
@@ -64,14 +103,14 @@
       </article>
     </div>
     <div class="row">
-      <article class="col-md-4">
-        <img src="http://placehold.it/500x300&text=Advertisment" class="sg-img">
+      <article class="col-md-4 padded-top">
+        <img src="http://placehold.it/500x300&text=Advertisment" class="img-responsive">
       </article>
-      <article class="col-md-4">
-	      <iframe width="560" height="315" src="//www.youtube.com/embed/1rKOdVAKTv8" frameborder="0" allowfullscreen></iframe>
+      <article class="col-md-4 padded-top">
+	      <iframe width="280" height="157" src="//www.youtube.com/embed/1rKOdVAKTv8" frameborder="0" allowfullscreen></iframe>
       </article>
-      <article class="col-md-4">
-        <table>
+      <article class="col-md-4 padded-top">
+        <table class="table table-striped">
           <thead>
             <tr>
               <th>Team</th>
