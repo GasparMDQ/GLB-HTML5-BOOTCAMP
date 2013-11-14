@@ -9,3 +9,15 @@
 .big-search {
 	width: 300px;
 }
+
+img.righty {
+	float: right;
+}
+
+footer {
+	text-align: center;
+}
+
+.padded {
+	padding: 5px;
+}
