@@ -1,19 +1,6 @@
 function Movie () {
     this.attributes = [];
-    this.observers = new ObserverList();
-
-    this.Notify = function ( context ){
-      var observerCount = this.observers.Count();
-      for(var i=0; i < observerCount; i++){
-        this.observers.Get(i).Update( context );
-      }
-    };
-
-    this.AddObserver = function( observer ){
-      this.observers.Add( observer );
-    };
 }
-
 
 Movie.prototype.play = function() {
   this.Notify('Playing '+ this.get('title'))
@@ -30,3 +17,37 @@ Movie.prototype.set = function (key, value) {
 Movie.prototype.get = function (key) {
   return this.attributes[key];
 }
+
+
+var MovieModule = (function () {
+
+  var attributes = [];
+
+  return {
+    play: function() {
+      this.Notify('Playing '+ this.get('title'))
+    },
+
+    stop:  function() {
+      this.Notify('Stoping '+ this.get('title'))
+    },
+
+    set: function (key, value) {
+      attributes[key] = value;
+    },
+
+    get: function (key) {
+      return attributes[key];
+    },
+
+  };
+
+})();
+
+function DownloadableMovie () {
+
+    this.download = function (){
+      console.log('Downloading ... ');
+    };
+}
+
