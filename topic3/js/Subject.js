@@ -1,4 +1,5 @@
 function Subject () {
+  "use strict";
   this.observers = new ObserverList();
   this.Notify = function ( context ){
     var observerCount = this.observers.Count();

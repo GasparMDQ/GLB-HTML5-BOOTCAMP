@@ -1,3 +1,5 @@
+"use strict";
+
 function ObserverList(){
   this.observerList = [];
 }
@@ -57,11 +59,3 @@ ObserverList.prototype.RemoveAt = function( index ){
   }
 };
 
-
-// Extend an object with an extension
-function extend( extension, obj ){
-  for ( var key in extension ){
-    obj[key] = extension[key];
-  }
-}
- 

@@ -1,3 +1,4 @@
+"use strict";
 // Extend an object with an extension
 function extend( extension, obj ){
   for ( var key in extension ){

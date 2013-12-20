@@ -1,5 +1,5 @@
 $(function() {
-
+  "use strict";
 
   var mv = new Movie();
   extend(new Subject(), mv);
@@ -38,6 +38,5 @@ var MovieObserver = {
   Update: function( context ){
     console.log(context);
   },
-}
-
+};
 

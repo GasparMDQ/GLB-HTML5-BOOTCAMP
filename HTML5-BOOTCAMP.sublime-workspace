@@ -1,0 +1,405 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"inRange"
+			],
+			[
+				"Math",
+				"MathApi"
+			],
+			[
+				"Mat",
+				"MathApi"
+			],
+			[
+				"ob",
+				"observers"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"Movie",
+				"Movie"
+			],
+			[
+				"Mo",
+				"DownloadableMovie"
+			],
+			[
+				"Downloa",
+				"DownloadableMovie"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"css",
+				"css"
+			],
+			[
+				"para",
+				"parametros"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"fo",
+				"footer	Tag"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"hea",
+				"header	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/gaspar.zaragoza/Desktop/app.js",
+			"settings":
+			{
+				"buffer_size": 245,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"selected_items":
+		[
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: if … else"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 291.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/gaspar.zaragoza/Downloads/programming_is_terrible.key",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-WEBUI/Nivel 3/Modulo 1/nbproject/private/private.xml",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-WEBUI/Nivel 3/Modulo 1/nbproject/private/private.properties",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-WEBUI/Nivel 3/Modulo 1/nbproject/project.xml",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-WEBUI/Nivel 3/Modulo 1/nbproject/project.properties",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic4/spec/MathSpec.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic4/js/math.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic4/SpecRunner.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/index.html",
+		"/C/Users/gaspar.zaragoza/Desktop/app.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-WEBUI/Nivel 2/Modulo 1/public_html/.htaccess",
+		"/C/Users/gaspar.zaragoza/Desktop/node_modules/requirejs/README.md",
+		"/C/Users/gaspar.zaragoza/Desktop/node_modules/requirejs/package.json",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/.htaccess",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic4/spec/PlayerSpec.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic4/spec/SpecHelper.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic4/src/Player.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/index.html",
+		"/C/Users/gaspar.zaragoza/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/test/app.js",
+		"/C/Users/gaspar.zaragoza/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/test/Actors.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/test/Subject.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/test/Social.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/test/Observer.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/test/helpers.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/test/Movie.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic3/js/Movie.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic3/js/Actors.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic3/js/Subject.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic3/js/Observer.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic3/js/helpers.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-WEBUI/Nivel 2/Modulo 1/public_html/index.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic3/js/app.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic3/index.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-WEBUI/Nivel 1/public_html/index.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic3/js/Social.js",
+		"/C/Users/gaspar.zaragoza/Desktop/RelacionPAEType.php",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic3/js/app.js.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/js/site.si.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/pure.si.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/foundation.si.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/bootstrap.si.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/css/site.css",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/js/site.yt.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/pure.yt.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/js/site.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/bootstrap.yt.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/foundation.yt.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/pure.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/foundation.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/bootstrap.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic0/index.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic1/js/site.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/topic2/helper/proxy.php",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/dia1/css/site.css",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/dia1/helper/proxy.php",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/dia1/js/site.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/dia1/index.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-WEBUI/Nivel 2/Modulo 1/public_html/css/site.css",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-WEBUI/Nivel 2/Modulo 1/public_html/js/site.js",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/dia0/index.html",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/web/css/site.css",
+		"/C/Users/gaspar.zaragoza/Repositories/Git/GLB-HTML5-BOOTCAMP/web/index.html",
+		"/C/Program Files/Sublime Text 3/test.txt",
+		"/C/xampp/apache_start.bat",
+		"/C/Program Files/Sublime Text 3/sublime_text.exe",
+		"/C/Users/gaspar.zaragoza/Downloads/CV Formato Globant (gaspar).doc"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Ceil",
+			"ceil",
+			"Ceil",
+			"ceil",
+			"Ceil",
+			"ceil",
+			"Ceil",
+			"  it(\"Clamp should return min if value is lesser than min\", function (){\n    expect(MathApi.clamp(1,3,5)).toBe(3);\n  });\n\n",
+			"  it(\"Ceil should round up 2 to 2\", function (){\n    expect(MathApi.ceil(2,1)).toBe(2);\n  });\n\n",
+			"sould",
+			"mv",
+			"Subject",
+			".facebook-icon {\n  background-image:url(flat_social_icons_by_insofta.jpg);\n  background-repeat:no-repeat;\n  background-position:-166px -230px; \n}\n",
+			"20px",
+			"col-md-4",
+			"row",
+			"col-md-4",
+			"sg-img",
+			"article",
+			"bs-example-navbar-collapse-1",
+			"small-4 large-4 columns",
+			" class=\"pure-table-odd\"",
+			"pure-u-1-3",
+			"pure-g-r",
+			"1-box",
+			"250x175",
+			"%;",
+			"yt",
+			"Dia",
+			"js_tweets",
+			"js_helloWorld",
+			"text",
+			"header",
+			"phonebook",
+			"3342",
+			"33 42"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"3242"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/gaspar.zaragoza/Desktop/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "HTML5-BOOTCAMP.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 111.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
